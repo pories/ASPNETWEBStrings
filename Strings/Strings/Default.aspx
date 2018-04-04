@@ -29,24 +29,24 @@
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button1" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Type in anything, comma delimited, and it will be reverse it in sequence.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="reverseInSequence" runat="server" OnClick="reverseInSequence_Click" Text="Reverse it in sequence " />
+&nbsp;&nbsp;&nbsp; Type in anything, comma delimited, and it will be reverse it in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sequence.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button2" runat="server" Text="Button" />
+        <asp:Button ID="removeTextButton" runat="server" OnClick="removeTextButton_Click" Text="Remove text" />
 &nbsp;&nbsp;&nbsp; Remove text! Type in what you want removed.&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="removeTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button3" runat="server" Text="Button" />
+        <asp:Button ID="lowerCaseButton" runat="server" OnClick="lowerCaseButton_Click" Text="Make Lower Case" />
 &nbsp;&nbsp;&nbsp; Make you text all lower case.&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button4" runat="server" Text="Button" />
+        <asp:Button ID="makeUpperCaseButton" runat="server" OnClick="makeUpperCaseButton_Click" Text="Make upper case" />
 &nbsp;&nbsp;&nbsp; Make upper case.&nbsp;&nbsp;&nbsp;
         <br />
         <br />
