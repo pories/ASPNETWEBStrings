@@ -94,192 +94,219 @@ namespace Strings {
         protected global::System.Web.UI.WebControls.Button makeUpperCaseButton;
         
         /// <summary>
-        /// Button5 control.
+        /// replaceCharButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button replaceCharButton;
         
         /// <summary>
-        /// Button16 control.
+        /// replaceTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button16;
+        protected global::System.Web.UI.WebControls.TextBox replaceTextBox;
         
         /// <summary>
-        /// TextBox2 control.
+        /// replacedTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox replacedTextBox;
         
         /// <summary>
-        /// TextBox9 control.
+        /// removeThemButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.Button removeThemButton;
         
         /// <summary>
-        /// Button7 control.
+        /// removeStartTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button7;
+        protected global::System.Web.UI.WebControls.TextBox removeStartTextBox;
         
         /// <summary>
-        /// TextBox4 control.
+        /// removeEndTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox removeEndTextBox;
         
         /// <summary>
-        /// TextBox5 control.
+        /// insertTextButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.Button insertTextButton;
         
         /// <summary>
-        /// Button6 control.
+        /// insertTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button6;
+        protected global::System.Web.UI.WebControls.TextBox insertTextBox;
         
         /// <summary>
-        /// Button17 control.
+        /// replaceWithTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button17;
+        protected global::System.Web.UI.WebControls.TextBox replaceWithTextBox;
         
         /// <summary>
-        /// TextBox6 control.
+        /// stringBuilderButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.Button stringBuilderButton;
         
         /// <summary>
-        /// TextBox7 control.
+        /// trimButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.Button trimButton;
         
         /// <summary>
-        /// Button8 control.
+        /// substringButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button8;
+        protected global::System.Web.UI.WebControls.Button substringButton;
         
         /// <summary>
-        /// Button9 control.
+        /// substringstartTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button9;
+        protected global::System.Web.UI.WebControls.TextBox substringstartTextBox;
         
         /// <summary>
-        /// Button10 control.
+        /// substringReturnTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button10;
+        protected global::System.Web.UI.WebControls.TextBox substringReturnTextBox;
         
         /// <summary>
-        /// Button11 control.
+        /// mergeButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button11;
+        protected global::System.Web.UI.WebControls.Button mergeButton;
         
         /// <summary>
-        /// Button12 control.
+        /// mergeOneTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button12;
+        protected global::System.Web.UI.WebControls.TextBox mergeOneTextBox;
         
         /// <summary>
-        /// TextBox8 control.
+        /// stringsEqual control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.Button stringsEqual;
         
         /// <summary>
-        /// Label1 control.
+        /// stringssametextbx1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.TextBox stringssametextbx1;
         
         /// <summary>
-        /// Button13 control.
+        /// stringssametextbx2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button13;
+        protected global::System.Web.UI.WebControls.TextBox stringssametextbx2;
         
         /// <summary>
-        /// Button14 control.
+        /// numberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button14;
+        protected global::System.Web.UI.WebControls.TextBox numberTextBox;
         
         /// <summary>
-        /// Button15 control.
+        /// numberResultLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button15;
+        protected global::System.Web.UI.WebControls.Label numberResultLabel;
+        
+        /// <summary>
+        /// standardNumberFormatButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button standardNumberFormatButton;
+        
+        /// <summary>
+        /// percentFormatButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button percentFormatButton;
+        
+        /// <summary>
+        /// phoneNumberButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button phoneNumberButton;
     }
 }

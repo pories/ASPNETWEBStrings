@@ -49,87 +49,86 @@
         <asp:Button ID="makeUpperCaseButton" runat="server" OnClick="makeUpperCaseButton_Click" Text="Make upper case" />
 &nbsp;&nbsp;&nbsp; Make upper case.&nbsp;&nbsp;&nbsp;
         <br />
+&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button5" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Replace one character with another character.&nbsp;&nbsp;&nbsp;
-        <br />
-&nbsp;&nbsp;&nbsp;
-        <br />
-&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button16" runat="server" Text="Button" />
+        <asp:Button ID="replaceCharButton" runat="server" OnClick="replaceCharButton_Click" Text="Replace char with another" />
 &nbsp;&nbsp;&nbsp; Enter one character to replace:
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <asp:TextBox ID="replaceTextBox" runat="server"></asp:TextBox>
 &nbsp; and then enter the character you want to replace it with.&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="TextBox9" runat="server"></asp:TextBox>
+        <asp:TextBox ID="replacedTextBox" runat="server"></asp:TextBox>
 &nbsp;<br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button7" runat="server" Text="Button" />
+        <asp:Button ID="removeThemButton" runat="server" OnClick="removeThemButton_Click" Text="Remove Text" />
 &nbsp;&nbsp;&nbsp; Remove characters in a string.&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start point,
-        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        <asp:TextBox ID="removeStartTextBox" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp; end point
-        <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+        <asp:TextBox ID="removeEndTextBox" runat="server"></asp:TextBox>
         <br />
 &nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button6" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Insert a part into a string.&nbsp;&nbsp;&nbsp;
-        <br />
-&nbsp;&nbsp;&nbsp;
-        <br />
-&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button17" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Insert at
-        <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+        <asp:Button ID="insertTextButton" runat="server" OnClick="insertTextButton_Click" Text="Insert" />
+&nbsp;&nbsp;&nbsp; Insert a part into a string.&nbsp;&nbsp;&nbsp;&nbsp; Insert at
+        <asp:TextBox ID="insertTextBox" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp; and replace with
-        <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+        <asp:TextBox ID="replaceWithTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button8" runat="server" Text="Button" />
+        <asp:Button ID="stringBuilderButton" runat="server" OnClick="stringBuilderButton_Click" Text="String Builder" />
 &nbsp;&nbsp;&nbsp; String builder, this will show the string builder in action, useful when concatenating and lots of other things.&nbsp;&nbsp;&nbsp;
         <br />
         <br />
 &nbsp;&nbsp;
-        <asp:Button ID="Button9" runat="server" Text="Button" />
+        <asp:Button ID="trimButton" runat="server" OnClick="trimButton_Click" Text="Trim" />
 &nbsp;&nbsp;&nbsp;&nbsp; Trim removes leading and trailing spaces. Find out how many there were.<br />
         <br />
 &nbsp;&nbsp;
-        <asp:Button ID="Button10" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp;&nbsp; Go to a location and return this many character.&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="substringButton" runat="server" OnClick="substringButton_Click" Text="Substring" />
+&nbsp;&nbsp;&nbsp;&nbsp; Go to a location
+        <asp:TextBox ID="substringstartTextBox" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp; and return this many characters.
+        <asp:TextBox ID="substringReturnTextBox" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;&nbsp; Sub string<br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button11" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Merge top of the form input with this text.<br />
+        <asp:Button ID="mergeButton" runat="server" OnClick="mergeButton_Click" Text="Merge strings" />
+&nbsp;&nbsp;&nbsp; Merge top of the form input with this text.
+        <asp:TextBox ID="mergeOneTextBox" runat="server"></asp:TextBox>
+        <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button12" runat="server" Text="Button" />
-&nbsp;&nbsp;&nbsp; Are the strings the same? First: is the same as<br />
+        <asp:Button ID="stringsEqual" runat="server" OnClick="stringsEqual_Click" Text="Strings are the same?" />
+&nbsp;&nbsp;&nbsp; Are the strings the same? First: is
+        <asp:TextBox ID="stringssametextbx1" runat="server"></asp:TextBox>
+&nbsp; the same as
+        <asp:TextBox ID="stringssametextbx2" runat="server"></asp:TextBox>
+        <br />
         <br />
 &nbsp;&nbsp;&nbsp; Enter a number:
-        <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+        <asp:TextBox ID="numberTextBox" runat="server"></asp:TextBox>
 &nbsp;&nbsp;&nbsp; Here are your results&nbsp;&nbsp;&nbsp;
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="numberResultLabel" runat="server"></asp:Label>
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button13" runat="server" Text="Button" />
+        <asp:Button ID="standardNumberFormatButton" runat="server" OnClick="standardNumberFormatButton_Click" Text="Standard Number Formatting" />
 &nbsp;&nbsp;&nbsp; Standard number formatting<br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button14" runat="server" Text="Button" />
+        <asp:Button ID="percentFormatButton" runat="server" OnClick="percentFormatButton_Click" Text="Percent Format" />
 &nbsp;&nbsp;&nbsp; Percent formatting<br />
         <br />
 &nbsp;&nbsp;&nbsp;
-        <asp:Button ID="Button15" runat="server" Text="Button" />
+        <asp:Button ID="phoneNumberButton" runat="server" OnClick="phoneNumberButton_Click" Text="Phone number format" />
 &nbsp;&nbsp;&nbsp; Phone number format L this is an example format a special, way, I chose a phone number, but you can put in any you want.
         <br />
         <br />
