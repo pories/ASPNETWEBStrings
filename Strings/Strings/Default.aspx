@@ -30,7 +30,7 @@
         <br />
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="reverseInSequence" runat="server" OnClick="reverseInSequence_Click" Text="Reverse it in sequence " />
-&nbsp;&nbsp;&nbsp; Type in anything, comma delimited, and it will be reverse it in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sequence.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; Type in anything, comma delimited, and it will be reverse it in sequence.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <br />
 &nbsp;&nbsp;&nbsp;
@@ -41,13 +41,13 @@
         <br />
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="lowerCaseButton" runat="server" OnClick="lowerCaseButton_Click" Text="Make Lower Case" />
-&nbsp;&nbsp;&nbsp; Make you text all lower case.&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; Make your text all lower case.&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;
         <br />
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="makeUpperCaseButton" runat="server" OnClick="makeUpperCaseButton_Click" Text="Make upper case" />
-&nbsp;&nbsp;&nbsp; Make upper case.&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; Make your text all upper case.&nbsp;&nbsp;&nbsp;
         <br />
 &nbsp;&nbsp;
         <br />
